@@ -1,8 +1,15 @@
-# Luke's config for the Zoomer Shell
+# Prakash's config for the Zoomer Shell
 
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+
+# Enable substitution in the prompt.
+setopt prompt_subst
+PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~$(gitbranchdirty)%{$fg[red]%}]%{$reset_color%}$%b '
+
+# Set up Node Version Manager
+source /usr/share/nvm/init-nvm.sh
+
 setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
