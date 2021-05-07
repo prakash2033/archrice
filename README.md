@@ -43,4 +43,4 @@ sh parbs.sh
 ```
 
 or clone the repo files directly to your home directory and install the
-[dependencies](https://github.com/prakash2033/LARBS/blob/master/progs.csv).
+[dependencies](https://github.com/prakash2033/PARBS/blob/master/progs.csv).
