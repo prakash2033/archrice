@@ -1,7 +1,6 @@
-# The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
+# The Archrice (Prakash Vishwakarma <https://github.com/prakash2033>'s dotfiles)
 
-These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
-[my YouTube channel](https://youtube.com/c/lukesmithxyz).
+These are the dotfiles deployed by [PARBS](https://github.com/prakash2033)
 
 - Very useful scripts are in `~/.local/bin/`
 - Settings for:
@@ -23,23 +22,25 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
 
 These dotfiles are intended to go with numerous suckless programs I use:
 
-- [dwm](https://github.com/lukesmithxyz/dwm) (window manager)
-- [dwmblocks](https://github.com/lukesmithxyz/dwmblocks) (statusbar)
-- [st](https://github.com/lukesmithxyz/st) (terminal emulator)
+- [dwm](https://github.com/prakash2033/dwm) (window manager)
+- [dwmblocks](https://github.com/prakash2033/dwmblocks) (statusbar)
+- [st](https://github.com/prakash2033/st) (terminal emulator)
 
 I also recommend trying out
-[mutt-wizard](https://github.com/lukesmithxyz/mutt-wizard), which additionally
+[mutt-wizard](https://github.com/prakash2033/mutt-wizard), which additionally
 works with this setup. It gives you an easy-to-install terminal-based email
 client regardless of your email provider. It is integrated into these dotfiles
 as well.
 
 ## Install these dotfiles and all dependencies
 
-Use [LARBS](https://larbs.xyz) to autoinstall everything:
+Use [PARBS](https://prakashvishwakarma.xyz) to autoinstall everything:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+git clone https://github.com/prakash2033/PARBS.git
+cd PARBS
+sh parbs.sh
 ```
 
 or clone the repo files directly to your home directory and install the
-[dependencies](https://github.com/LukeSmithxyz/LARBS/blob/master/progs.csv).
+[dependencies](https://github.com/prakash2033/LARBS/blob/master/progs.csv).
