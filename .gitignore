@@ -50,6 +50,7 @@
 .config/transmission-daemon/
 .config/transmission-remote-gtk
 .config/transmission/
+.config/ncmpcpp/error.log
 
 # Git Files
 .gitconfig
@@ -74,6 +75,7 @@
 .pub-cache/
 .lesshst
 .cargo/
+*.log
 
 # User directories
 Documents/
