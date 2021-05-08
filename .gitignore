@@ -1,12 +1,20 @@
+# Bash DotFiles
 .bash_history
 .bash_logout
+.bashrc
+.bash_profile
 
+# Zsh Files
+.config/zsh/.histfile
+.config/zsh/.zcompdump
+.config/.zshrc.zni
 
 # Config Files which need not be maintained
 .config/BraveSoftware/
 .config/Code/
 .config/GIMP/
 .config/Microsoft/
+.config/QtProject.conf
 .config/VirtualBox/
 .config/autostart/
 .config/chromium/
@@ -18,17 +26,22 @@
 .config/lf/shortcutrc
 .config/menus/
 .config/neofetch/
-
 .config/nvm/
 .config/pulse/
-
 .config/spotify
+.config/teams/
+.config/transmission-daemon/
+.config/transmission-remote-gtk
+.config/transmission/
 
 # Git Files
 .gitconfig
 .git-credentials
 
 # Other software dot files
+.F5Networks/
+.Xauthority
+.cache/
 .gnome/
 .gnupg/
 .mozilla/
@@ -63,3 +76,5 @@ vimwiki/
 .local/share/weatherreport
 .local/share/xorg/
 .local/share/zathura/
+.local/share/applications/mimeinfo.cache
+.local/share/applications/chrome-*-Default.desktop
