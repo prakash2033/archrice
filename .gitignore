@@ -73,6 +73,7 @@
 .var/
 .pub-cache/
 .lesshst
+.cargo/
 
 # User directories
 Documents/
