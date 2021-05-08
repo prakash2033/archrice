@@ -25,6 +25,7 @@
 .config/nautilus/
 .config/pavucontrol.ini
 .config/user-dirs.locale
+.config/user-dirs.dirs
 .config/BraveSoftware/
 .config/Code/
 .config/GIMP/
