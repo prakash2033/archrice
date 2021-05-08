@@ -52,6 +52,7 @@
 .config/transmission/
 .config/ncmpcpp/error.log
 .config/youtube-viewer/
+.config/xfce4/
 
 # Git Files
 .gitconfig
