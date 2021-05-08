@@ -51,6 +51,7 @@
 .config/transmission-remote-gtk
 .config/transmission/
 .config/ncmpcpp/error.log
+.config/youtube-viewer/
 
 # Git Files
 .gitconfig
