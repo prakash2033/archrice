@@ -1,0 +1,45 @@
+.bash_history
+.bash_logout
+
+
+# Config Files which need not be maintained
+.config/BraveSoftware/
+.config/Code/
+.config/GIMP/
+.config/Microsoft/
+.config/VirtualBox/,config/autostart/
+.config/Chromium/
+.config/configstore
+.config/dconf/
+.config/geany/
+.config/google-chrome/
+.config/htop/
+.config/lf/shortcutrc
+.config/menus/
+.config/neofetch/
+
+.config/nvm/
+.config/pulse/
+
+.config/spotify
+
+# Other software dot files
+.mozilla/
+.node-gyp/
+.npm/
+,nvm/
+.pki/
+.python_history
+.thunderbird/
+.viminfo
+.vscode/
+
+# User directories
+Documents/
+Downloads/
+Pictures/
+dev/
+cli/
+*.txt
+*.png
+vimwiki/
