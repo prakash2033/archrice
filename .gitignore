@@ -9,8 +9,23 @@
 .config/zsh/.zcompdump
 .config/zsh/.zshrc.zni
 .config/shell/zshnameddirrc
+.oh-my-zsh/
+~/.zshrc
+.zsh_history
+.zcompdump
+.zcompdump*
 
 # Config Files which need not be maintained
+./config/background
+.config/calcurse/
+.config/dleyna-renderer-service.config
+.config/dleyna-server-service.conf
+./config/evolution/
+.config/gtk-3.0/bookmarks
+.config/gtk-4.0/
+.config/nautilus/
+.config/pavucontrol.ini
+.config/user-dirs.locale
 .config/BraveSoftware/
 .config/Code/
 .config/GIMP/
@@ -56,15 +71,22 @@
 .thunderbird/
 .viminfo
 .vscode/
+.var/
+.pubcache/
+.lesshst
 
 # User directories
 Documents/
 Downloads/
 Pictures/
+Videos/
 dev/
 cli/
 *.txt
+*.jpg
 *.png
+*.mkv
+*.mp4
 vimwiki/
 
 # .Local Files
@@ -81,4 +103,20 @@ vimwiki/
 .local/share/xorg/
 .local/share/zathura/
 .local/share/applications/mimeinfo.cache
+.local/share/applications/mimeapps.list
 .local/share/applications/chrome-*-Default.desktop
+.local/share/*.jpg
+.local/share/calcurse/
+.local/share/epiphany/
+.local/share/evolution/
+.local/share/flatpak/
+.local/share/folks/
+.local/share/gnome-photos/
+.local/share/gnome-settings-daemon/
+.local/share/gnome-shell/
+.local/share/grilo-plugins/
+.local/share/gvfs-metadata/
+.local/share/icc/
+.local/share/keyrings/
+.local/share/telepathy/
+.local/share/tracker/
