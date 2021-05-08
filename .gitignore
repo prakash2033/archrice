@@ -10,17 +10,16 @@
 .config/zsh/.zshrc.zni
 .config/shell/zshnameddirrc
 .oh-my-zsh/
-~/.zshrc
 .zsh_history
 .zcompdump
 .zcompdump*
 
 # Config Files which need not be maintained
-./config/background
+.config/background
 .config/calcurse/
-.config/dleyna-renderer-service.config
+.config/dleyna-renderer-service.conf
 .config/dleyna-server-service.conf
-./config/evolution/
+.config/evolution/
 .config/gtk-3.0/bookmarks
 .config/gtk-4.0/
 .config/nautilus/
@@ -72,7 +71,7 @@
 .viminfo
 .vscode/
 .var/
-.pubcache/
+.pub-cache/
 .lesshst
 
 # User directories
@@ -120,3 +119,4 @@ vimwiki/
 .local/share/keyrings/
 .local/share/telepathy/
 .local/share/tracker/
+.local/share/nautilus/
