@@ -7,8 +7,9 @@
 .config/Code/
 .config/GIMP/
 .config/Microsoft/
-.config/VirtualBox/,config/autostart/
-.config/Chromium/
+.config/VirtualBox/
+.config/autostart/
+.config/chromium/
 .config/configstore
 .config/dconf/
 .config/geany/
@@ -23,11 +24,17 @@
 
 .config/spotify
 
+# Git Files
+.gitconfig
+.git-credentials
+
 # Other software dot files
+.gnome/
+.gnupg/
 .mozilla/
 .node-gyp/
 .npm/
-,nvm/
+.nvm/
 .pki/
 .python_history
 .thunderbird/
@@ -43,3 +50,16 @@ cli/
 *.txt
 *.png
 vimwiki/
+
+# .Local Files
+.local/share/bg
+.local/share/crypto-prices/
+.local/share/desktop-directories/
+.local/share/history
+.local/share/mimeapps.list
+.local/share/newsboat
+.local/share/nvim
+.local/share/recently-used.xbel
+.local/share/weatherreport
+.local/share/xorg/
+.local/share/zathura/
