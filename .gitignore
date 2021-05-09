@@ -53,6 +53,8 @@
 .config/ncmpcpp/error.log
 .config/youtube-viewer/
 .config/xfce4/
+.config/.mono/
+.config/KeePass/
 
 # Git Files
 .gitconfig
