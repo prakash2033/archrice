@@ -26,6 +26,4 @@ case $BLOCK_BUTTON in
 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-week="Week"
-
 date "+%Y %b %d (%a) W%W $icon%I:%M:%S%p %Z"
