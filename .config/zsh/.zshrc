@@ -7,6 +7,9 @@ autoload -U colors && colors	# Load colors
 setopt prompt_subst
 PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~$(gitbranchdirty)%{$fg[red]%}]%{$reset_color%}$%b '
 
+# To use mpv in zsh
+unsetopt nomatch
+
 # Set up Node Version Manager
 source /usr/share/nvm/init-nvm.sh
 
