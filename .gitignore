@@ -55,6 +55,8 @@
 .config/xfce4/
 .config/.mono/
 .config/KeePass/
+.config/JetBrains/
+.config/libreoffice/
 
 # Git Files
 .gitconfig
@@ -80,6 +82,7 @@
 .lesshst
 .cargo/
 *.log
+.java/
 
 # User directories
 Documents/
@@ -111,6 +114,7 @@ vimwiki/
 .local/share/applications/mimeinfo.cache
 .local/share/applications/mimeapps.list
 .local/share/applications/chrome-*-Default.desktop
+.local/share/applications/jetbrains*.desktop
 .local/share/*.jpg
 .local/share/calcurse/
 .local/share/epiphany/
@@ -128,3 +132,4 @@ vimwiki/
 .local/share/tracker/
 .local/share/nautilus/
 .local/share/ranger/
+.local/share/JetBrains/
