@@ -1,0 +1,13 @@
+#!/bin/sh
+
+user=$(echo "" | dmenu -p "Enter user:")
+secret="'$(echo "" | dmenu -p  "Enter secret(PIN, OTP, Password):")'"
+
+notify-send "$user $secret $F5FPC_HOST"
+out=$(f5fpc -s -u $user -p $secret -t $F5FPC_HOST)
+notify-send "$out"
+
+sleep 5
+
+out=$(f5fpc --info)
+notify-send "$out"
