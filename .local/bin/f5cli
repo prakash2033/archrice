@@ -1,13 +1,26 @@
 #!/bin/sh
 
+getStatus(){
+	status=$(f5fpc --info | head -n 1 | awk '{print $3, $4, $5}')
+	echo "$status"
+}
+
+if [ "$(getStatus)" = "session established " ]; then
+	[ "$(printf "No\\nYes" | dmenu -i -p "Turn off VPN?")" = "Yes" ] && f5fpc --stop && notify-send "VPN turned off"
+	exit 0
+fi
+
 user=$(echo "" | dmenu -p "Enter user:")
-secret="'$(echo "" | dmenu -p  "Enter secret(PIN, OTP, Password):")'"
+secret="$(echo "" | dmenu -P -p  "Enter secret(PIN, OTP, Password):")"
+cmd="f5fpc --start -u $user -p '$secret' -t $F5FPC_HOST"
 
-notify-send "$user $secret $F5FPC_HOST"
-out=$(f5fpc --start -u $user -p $secret -t $F5FPC_HOST)
-notify-send "$out"
+eval "$cmd"
 
-sleep 5
-
-out=$(f5fpc --info)
-notify-send "$out"
+while :
+do
+  status=$(getStatus)
+  notify-send "$status"
+  if [[ "$status" == "logon failed " || "$status" == "session established " ]]; then
+	exit 0
+  fi
+done
