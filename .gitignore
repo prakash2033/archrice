@@ -87,6 +87,7 @@
 .java/
 .dmrc
 .xsession-errors*
+.azure/
 
 # User directories
 Documents/
@@ -95,6 +96,7 @@ Pictures/
 Videos/
 dev/
 cli/
+lib/
 *.txt
 *.jpg
 *.png
@@ -103,6 +105,8 @@ cli/
 vimwiki/
 
 # .Local Files
+.local/bin/azure-cli/
+.local/bin/kubectl/
 .local/src
 .local/share/bg
 .local/share/crypto-prices/
