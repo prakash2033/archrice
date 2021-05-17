@@ -33,6 +33,7 @@ alias \
 alias \
 	ka="killall" \
 	g="git" \
+	gs="git status" \
 	trem="transmission-remote" \
 	YT="youtube-viewer" \
 	sdn="sudo shutdown -h now" \
