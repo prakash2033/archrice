@@ -33,7 +33,13 @@ alias \
 alias \
 	ka="killall" \
 	g="git" \
+	ga="git add" \
 	gs="git status" \
+	gd="git diff" \
+	gds="git diff --staged" \
+	gc="git commit" \
+	gp="git push" \
+	gl="git log" \
 	trem="transmission-remote" \
 	YT="youtube-viewer" \
 	sdn="sudo shutdown -h now" \
