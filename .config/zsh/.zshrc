@@ -176,7 +176,11 @@ lfcd () {
     fi
 }
 
-bindkey -s '^o' 'lfcd\n'
+se () {
+	du -a ~/* | awk '{print $2}' | fzf | xargs -r $EDITOR
+}
+
+bindkey -s '^o' 'se\n'
 
 bindkey -s '^a' 'bc -lq\n'
 
