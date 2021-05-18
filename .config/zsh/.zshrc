@@ -177,7 +177,7 @@ lfcd () {
 }
 
 se () {
-	du -a ~/.local/bin/* ~/.local/src/* ~/.config/* ~/.config/.* ~/.* ~/* | awk '{print $2}' | fzf -i | xargs -r $EDITOR
+	du -a ~/.* ~/.*/*/.* ~/*/* ~/ | awk '{print $2}' | fzf -i | xargs -r $EDITOR
 }
 
 bindkey -s '^o' 'se\n'
