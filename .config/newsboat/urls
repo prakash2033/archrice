@@ -1,6 +1,6 @@
 https://www.archlinux.org/feeds/news/ "tech"
 https://www.nagpurtoday.in/latest-news/rss "~Nagpur Today (News)"
-https://thelivenagpur.com/feed/
+#https://thelivenagpur.com/feed/
 https://feeds.bbci.co.uk/hindi/india/rss.xml "~BBC Hindi India"
 https://srbachchan.tumblr.com/rss "~Amitabh Bachchan's Official Blog"
 https://feeds.thelocal.com/rss/se "~The Local (News)"
@@ -19,7 +19,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCdqoLdDI5U8Xz2_mYPD71eg "~i
 https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA "~Learn Linux TV (YouTube)"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ "~Network Chuck (YouTube)"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCL0QSFSUfW8cHua_rDpltTg "~Peter Paul Chato (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCrC8mOqJQpoB7NuIMKIS6rQ "~Study IQ Education (YouTube)"
+#https://www.youtube.com/feeds/videos.xml?channel_id=UCrC8mOqJQpoB7NuIMKIS6rQ "~Study IQ Education (YouTube)"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC15sF31QE-7rooIlSKnTq_w "~MSK (YouTube)"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC1MwJy1R0nGQkXxRD9p-zTQ "~Barnacules Nerdgasm (YouTube)"
 https://lukesmith.xyz/rss.xml
