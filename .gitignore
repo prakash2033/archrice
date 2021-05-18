@@ -87,6 +87,9 @@
 .dmrc
 .xsession-errors*
 .azure/
+.dotnet/
+.nuget/
+.aspnet/
 
 # User directories
 Documents/
@@ -142,3 +145,4 @@ vimwiki/
 .local/share/JetBrains/
 .local/share/mime/
 .local/share/lf/
+.local/share/NuGet/
