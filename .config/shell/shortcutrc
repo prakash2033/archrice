@@ -9,6 +9,7 @@ m="cd /home/prakash/Music && ls -a" \
 mn="cd /mnt && ls -a" \
 pp="cd /home/prakash/Pictures && ls -a" \
 dl="cd /home/prakash/Pictures/wallpapers/dl && ls -a" \
+ww="cd /home/prakash/Pictures/wallpapers && ls -a" \
 sc="cd /home/prakash/.local/bin && ls -a" \
 src="cd /home/prakash/.local/src && ls -a" \
 vv="cd /home/prakash/Videos && ls -a" \
