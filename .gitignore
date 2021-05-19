@@ -89,6 +89,8 @@
 .dotnet/
 .nuget/
 .aspnet/
+.oh-my-zsh/
+.dbus/
 
 # User directories
 dox/
