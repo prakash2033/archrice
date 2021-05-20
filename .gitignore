@@ -91,6 +91,8 @@
 .aspnet/
 .oh-my-zsh/
 .dbus/
+.swt/
+.vsts/
 
 # User directories
 dox/
