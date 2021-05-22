@@ -104,6 +104,7 @@ dev/
 code/
 cli/
 lib/
+tmp/
 *.txt
 *.jpg
 *.png
