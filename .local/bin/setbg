@@ -8,3 +8,6 @@ command -v wal >/dev/null 2>&1 &&
 	pidof dwm >/dev/null && xdotool key super+F12
 
 xwallpaper --zoom ~/.config/wall.png
+
+# Restart dwm
+kill -HUP $(pgrep -u $USER "\bdwm$")
