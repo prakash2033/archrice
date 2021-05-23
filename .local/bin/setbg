@@ -2,12 +2,4 @@
 # Sets the background. If given an argument, will set file as background.
 [ ! -z "$1" ] && cp "$1" ~/.config/wall.png && notify-send -i "$HOME/.config/wall.png" "Wallpaper changed."
 
-# If pywal is installed, use it.
-command -v wal >/dev/null 2>&1 &&
-	wal -i ~/.config/wall.png -o "${XDG_CONFIG_HOME:-$HOME/.config}/wal/postrun" >/dev/null 2>&1 &&
-	pidof dwm >/dev/null && xdotool key super+F12
-
 xwallpaper --zoom ~/.config/wall.png
-
-# Restart dwm
-kill -HUP $(pgrep -u $USER "\bdwm$")
