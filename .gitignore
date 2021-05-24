@@ -87,6 +87,7 @@
 .xsession-errors*
 .azure/
 .dotnet/
+.templateengine/
 .nuget/
 .aspnet/
 .oh-my-zsh/
