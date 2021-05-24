@@ -56,6 +56,7 @@
 .config/JetBrains/
 .config/libreoffice/
 .config/Thunar/
+.config/azuredatastudio/
 
 # Git Files
 .gitconfig
@@ -94,6 +95,8 @@
 .dbus/
 .swt/
 .vsts/
+.azuredatastudio/
+.sqlsecrets/
 
 # User directories
 dox/
