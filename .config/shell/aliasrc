@@ -40,7 +40,8 @@ alias \
 	gd="git diff" \
 	gds="git diff --staged" \
 	gc="git commit" \
-	gp="git push" \
+	gp="git pull" \
+	gps="git push" \
 	gl="git log" \
 	trem="transmission-remote" \
 	YT="youtube-viewer" \
@@ -48,9 +49,6 @@ alias \
 	e="$EDITOR" \
 	v="$EDITOR" \
 	p="sudo pacman" \
-	xi="sudo xbps-install" \
-	xr="sudo xbps-remove -R" \
-	xq="xbps-query" \
 	z="zathura"
 
 alias \
