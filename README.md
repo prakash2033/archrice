@@ -34,7 +34,7 @@ as well.
 
 ## Install these dotfiles and all dependencies
 
-Use [PARBS](https://prakashvishwakarma.xyz) to autoinstall everything:
+Use PARBS to autoinstall everything:
 
 ```
 git clone https://github.com/prakash2033/PARBS.git
