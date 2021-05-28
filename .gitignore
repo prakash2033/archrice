@@ -57,6 +57,8 @@
 .config/libreoffice/
 .config/Thunar/
 .config/azuredatastudio/
+.config/kdenlive-layoutsrc
+.config/kdenliverc
 
 # Git Files
 .gitconfig
@@ -157,3 +159,6 @@ vimwiki/
 .local/share/lf/
 .local/share/NuGet/
 .local/share/Trash/
+.local/share/user-places.xbel
+.local/share/user-places.xbel.bak
+.local/share/user-places.xbel.tbcache
