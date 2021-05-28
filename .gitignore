@@ -59,6 +59,7 @@
 .config/azuredatastudio/
 .config/kdenlive-layoutsrc
 .config/kdenliverc
+.config/screenkey.json
 
 # Git Files
 .gitconfig
