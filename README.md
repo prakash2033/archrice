@@ -6,8 +6,8 @@ These are the dotfiles deployed by [PARBS](https://github.com/prakash2033)
 - Settings for:
 	- vim/nvim (text editor)
 	- zsh (shell)
-	- lf (file manager)
-	- mpd/ncmpcpp (music)
+	- ranger (file manager)
+	- spotify/mpd/ncmpcpp (music)
 	- sxiv (image/gif viewer)
 	- mpv (video player)
 	- other stuff like xdg default programs, inputrc and more, etc.
