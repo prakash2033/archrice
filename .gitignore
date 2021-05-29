@@ -119,6 +119,7 @@ tmp/
 *.mkv
 *.mp4
 vimwiki/
+yt/
 
 # .Local Files
 .local/bin/azure-cli/
