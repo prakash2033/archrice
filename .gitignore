@@ -120,6 +120,7 @@ tmp/
 *.mp4
 vimwiki/
 yt/
+vm/
 
 # .Local Files
 .local/bin/azure-cli/
