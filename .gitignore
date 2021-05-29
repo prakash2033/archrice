@@ -61,6 +61,7 @@
 .config/kdenliverc
 .config/kdeglobals
 .config/screenkey.json
+.config/cava/
 
 # Git Files
 .gitconfig
