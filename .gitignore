@@ -168,7 +168,4 @@ vm/
 .local/share/user-places.xbel.tbcache
 .local/share/RecentDocuments/
 .local/share/stalefiles/
-.local/lib/azure-cli/bin/
-.local/lib/azure-cli/include/
-.local/lib/azure-cli/lib/
-.local/lib/python3.9/
+.local/lib/
