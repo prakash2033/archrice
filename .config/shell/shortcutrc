@@ -35,3 +35,4 @@ cfX="$EDITOR /home/prakash/.config/sxiv/exec/key-handler" \
 zshrc="$EDITOR ~/.config/zsh/.zshrc" \
 xprofile="$EDITOR ~/.xprofile" \
 zprofile="$EDITOR ~/.zprofile" \
+bg="sxiv -t ~/pix/wall/*" \
