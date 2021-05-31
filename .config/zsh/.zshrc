@@ -76,6 +76,22 @@ se () {
 	du -a ~/.* ~/.*/*/.* ~/*/* ~/ | awk '{print $2}' | fzf -i | xargs -r $EDITOR
 }
 
+countdown(){
+   date1=$((`date +%s` + $1));
+   while [ "$date1" -ge `date +%s` ]; do
+     echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
+     sleep 0.1
+   done
+}
+
+stopwatch(){
+  date1=`date +%s`;
+   while true; do
+    echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r";
+    sleep 0.1
+   done
+}
+
 bindkey -s '^o' 'se\n'
 
 bindkey -s '^a' 'bc -lq\n'
