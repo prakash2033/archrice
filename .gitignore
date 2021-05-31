@@ -62,6 +62,7 @@
 .config/kdeglobals
 .config/screenkey.json
 .config/cava/
+.config/discord/
 
 # Git Files
 .gitconfig
