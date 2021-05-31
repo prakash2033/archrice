@@ -104,6 +104,7 @@
 .sqlsecrets/
 
 # User directories
+books/
 dox/
 dl/
 pix/
