@@ -63,6 +63,7 @@
 .config/screenkey.json
 .config/cava/
 .config/discord/
+.config/xfce4/
 
 # Git Files
 .gitconfig
