@@ -92,6 +92,14 @@ stopwatch(){
    done
 }
 
+egit(){
+ mv ~/.dgit ~/.git
+}
+
+dgit(){
+ mv ~/.git ~/.dgit
+}
+
 bindkey -s '^o' 'se\n'
 
 bindkey -s '^a' 'bc -lq\n'
