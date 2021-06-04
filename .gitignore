@@ -64,6 +64,7 @@
 .config/cava/
 .config/discord/
 .config/xfce4/
+.config/gtk-3.0/servers
 
 # Git Files
 .gitconfig
@@ -173,3 +174,4 @@ vm/
 .local/share/stalefiles/
 .local/lib/
 .local/share/kdenlive/
+.local/share/lftp/
