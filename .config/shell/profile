@@ -8,8 +8,10 @@
 # Adds `~/.local/bin` to $PATH
 export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 
-# Adds '~/.dotnet' to PATH
+# Adds '~/.dotnet' & '~/.dotnet/tools' to PATH
+export DOTNET_ROOT="/home/prakash/.dotnet"
 export PATH="$PATH:${$(find ~/.dotnet -type d -printf %p:)%%:}"
+export DOTNET_CLI_TELEMETRY_OPTOUT="true"
 
 unsetopt PROMPT_SP
 
