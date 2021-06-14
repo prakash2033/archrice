@@ -11,6 +11,7 @@ export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 # Adds '~/.dotnet' & '~/.dotnet/tools' to PATH
 export DOTNET_ROOT="/home/prakash/.dotnet"
 export PATH="$PATH:${$(find ~/.dotnet -type d -printf %p:)%%:}"
+#To turn off Telemetry data send to Microsoft by dotnet
 export DOTNET_CLI_TELEMETRY_OPTOUT="true"
 
 unsetopt PROMPT_SP
