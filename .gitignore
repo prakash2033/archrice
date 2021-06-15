@@ -65,6 +65,7 @@
 .config/discord/
 .config/xfce4/
 .config/gtk-3.0/servers
+.config/obs-studio/
 
 # Git Files
 .gitconfig
@@ -145,6 +146,7 @@ vm/
 .local/share/applications/mimeapps.list
 .local/share/applications/chrome-*-Default.desktop
 .local/share/applications/jetbrains*.desktop
+.local/share/applications/userapp-Telegram Desktop-9TF440.desktop
 .local/share/*.jpg
 .local/share/calcurse/
 .local/share/epiphany/
@@ -176,3 +178,4 @@ vm/
 .local/share/kdenlive/
 .local/share/lftp/
 .local/share/SymbolSourceSymbols/
+.local/share/TelegramDesktop/
