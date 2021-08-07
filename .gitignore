@@ -66,6 +66,7 @@
 .config/xfce4/
 .config/gtk-3.0/servers
 .config/obs-studio/
+.config/touchegg/
 
 # Git Files
 .gitconfig
@@ -106,6 +107,7 @@
 .vsts/
 .azuredatastudio/
 .sqlsecrets/
+.x3270connect
 
 # User directories
 books/
