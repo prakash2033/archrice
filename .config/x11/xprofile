@@ -11,12 +11,13 @@ picom &			# picom for transparency
 dunst &			# dunst for notifications
 xset r rate 300 50 &	# Speed xrate up
 unclutter &		# Remove mouse when idle
+xfce-polkit &		# XFCE Polkit Authentication Agent
 xfsettingsd &		# XFCE Settings daemon
 xfce4-power-manager &	# For power management
 udiskie &		# Autommount removable disks
 nm-applet &		# Network Manager applet
 blueman-applet & 	# Bluetooth applet
-touchegg &		# Multitouch gesture program, also needs service to be enabled
+#touchegg &		# Multitouch gesture program, also needs service to be enabled
 wal -R 			# restores the last colorscheme that was in use
 
 # This line autostarts an instance of Pulseaudio that does not exit on idle.

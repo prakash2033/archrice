@@ -108,6 +108,8 @@
 .azuredatastudio/
 .sqlsecrets/
 .x3270connect
+.kube/
+.vs-kubernetes/
 
 # User directories
 books/
