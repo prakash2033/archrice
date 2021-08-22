@@ -12,11 +12,11 @@ image/gif=img.desktop;
 application/rss+xml=rss.desktop
 video/x-matroska=video.desktop
 x-scheme-handler/lbry=lbry.desktop
-inode/directory=file.desktop
+inode/directory=xfce4-file-manager.desktop
 x-scheme-handler/msteams=teams.desktop
 x-scheme-handler/tg=userapp-Telegram Desktop-9TF440.desktop
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
 x-scheme-handler/chrome=firefox.desktop
 text/html=firefox.desktop
 application/x-extension-htm=firefox.desktop
@@ -25,11 +25,12 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+x-scheme-handler/trash=xfce4-file-manager.desktop
 
 [Added Associations]
 x-scheme-handler/tg=userapp-Telegram Desktop-9TF440.desktop;
-x-scheme-handler/http=firefox.desktop;
-x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
 x-scheme-handler/chrome=firefox.desktop;
 text/html=firefox.desktop;
 application/x-extension-htm=firefox.desktop;
@@ -44,3 +45,6 @@ application/x-x509-ca-cert=geany.desktop;
 application/x-pem-file=geany.desktop;
 text/plain=geany.desktop;
 application/x-yaml=geany.desktop;
+inode/directory=xfce4-file-manager.desktop;
+x-scheme-handler/trash=xfce4-file-manager.desktop;
+
