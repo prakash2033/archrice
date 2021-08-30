@@ -183,3 +183,5 @@ vm/
 .local/share/lftp/
 .local/share/SymbolSourceSymbols/
 .local/share/TelegramDesktop/
+.local/share/cargo/
+.local/share/xfce4/
