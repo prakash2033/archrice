@@ -47,4 +47,4 @@ text/plain=geany.desktop;
 application/x-yaml=geany.desktop;
 inode/directory=xfce4-file-manager.desktop;
 x-scheme-handler/trash=xfce4-file-manager.desktop;
-
+application/x-shellscript=geany.desktop;
