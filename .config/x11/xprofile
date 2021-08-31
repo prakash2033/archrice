@@ -12,14 +12,12 @@ dunst &			# dunst for notifications
 xset r rate 300 50 &	# Speed xrate up
 unclutter &		# Remove mouse when idle
 #xfsettingsd &		# XFCE Settings daemon
-#xfce-polkit &		# XFCE Polkit Authentication Agent
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & # GNOME Authentication Agent
 xfce4-power-manager &	# For power management
 udiskie &		# Autommount removable disks
 nm-applet &		# Network Manager applet
 #blueman-applet & 	# Bluetooth applet
 blueberry-tray & # Bluetooth tray icon
-#touchegg &		# Multitouch gesture program, also needs service to be enabled
 #betterlockscreen -w dim # Set desktop background with custom effect
 wal -R 			# restores the last colorscheme that was in use
 
