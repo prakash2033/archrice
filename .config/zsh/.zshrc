@@ -1,14 +1,30 @@
 # Prakash's config for the Zoomer Shell
 
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+plugins=(git
+zsh-autosuggestions
+zsh-syntax-highlighting
+)
+
+source $ZSH/oh-my-zsh.sh
+
 # Enable colors and change prompt:
-autoload -U colors && colors	# Load colors
+#autoload -U colors && colors	# Load colors
 
 # Enable substitution in the prompt.
-setopt prompt_subst
-PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~$(gitbranchdirty)%{$fg[red]%}]%{$reset_color%}$%b '
+#setopt prompt_subst
+#PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~$(gitbranchdirty)%{$fg[red]%}]%{$reset_color%}$%b '
 
 # To use mpv in zsh
-unsetopt nomatch
+#unsetopt nomatch
 
 # Set up Node Version Manager
 source /usr/share/nvm/init-nvm.sh

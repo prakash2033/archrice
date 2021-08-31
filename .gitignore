@@ -67,6 +67,9 @@
 .config/gtk-3.0/servers
 .config/obs-studio/
 .config/touchegg/
+.config/helm/
+.config/qpdfview/
+.config/sublime-text/
 
 # Git Files
 .gitconfig
@@ -110,6 +113,9 @@
 .x3270connect
 .kube/
 .vs-kubernetes/
+.screenlayout/
+.icons/
+.fehbg
 
 # User directories
 books/
@@ -185,3 +191,4 @@ vm/
 .local/share/TelegramDesktop/
 .local/share/cargo/
 .local/share/xfce4/
+.local/share/qpdfview/
