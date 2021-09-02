@@ -17,7 +17,7 @@ xfce4-power-manager &	# For power management
 udiskie &		# Autommount removable disks
 nm-applet &		# Network Manager applet
 #blueman-applet & 	# Bluetooth applet
-blueberry-tray & # Bluetooth tray icon
+blueberry-tray & 	# Bluetooth tray icon
 #betterlockscreen -w dim # Set desktop background with custom effect
 wal -R 			# restores the last colorscheme that was in use
 
