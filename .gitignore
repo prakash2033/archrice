@@ -12,6 +12,9 @@
 .zsh_history
 .zcompdump
 .zcompdump*
+.fzf/*
+.fzf.zsh
+.z
 
 # Config Files which need not be maintained
 .config/background
@@ -138,6 +141,7 @@ yt/
 vm/
 
 # .Local Files
+.scripts/
 .local/bin/azure-cli/
 .local/bin/kubectl/
 .local/src
