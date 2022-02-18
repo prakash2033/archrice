@@ -12,7 +12,7 @@
 .zsh_history
 .zcompdump
 .zcompdump*
-.fzf/*
+.fzf/
 .fzf.zsh
 .z
 
