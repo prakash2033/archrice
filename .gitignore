@@ -14,7 +14,7 @@
 .zcompdump*
 .fzf/*
 .fzf.zsh
-.z
+.z/
 
 # Config Files which need not be maintained
 .config/background
