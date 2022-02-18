@@ -36,6 +36,7 @@ alias \
 	ka="killall" \
 	g="git" \
 	ga="git add" \
+	gf="git fetch --all" \
 	gs="git status" \
 	gd="git diff" \
 	gds="git diff --staged" \

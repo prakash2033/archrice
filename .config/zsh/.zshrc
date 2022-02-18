@@ -101,8 +101,12 @@ lfcd () {
     fi
 }
 
-se () {
+se1 () {
 	du -a ~/.* ~/.*/*/.* ~/*/* ~/ | awk '{print $2}' | fzf -i | xargs -r $EDITOR
+}
+
+se(){
+	find . | fzf -i | xargs -r xdg-open
 }
 
 countdown(){
@@ -127,6 +131,17 @@ egit(){
 
 dgit(){
  mv ~/.git ~/.dgit
+}
+
+fshow() {
+  git log --graph --color=always \
+      --format="%C(auto)%h%d %s %C(black)%C(bold)%cr" "$@" |
+  fzf --ansi --no-sort --reverse --tiebreak=index --bind=ctrl-s:toggle-sort \
+      --bind "ctrl-m:execute:
+                (grep -o '[a-f0-9]\{7\}' | head -1 |
+                xargs -I % sh -c 'git show --color=always % | less -R') << 'FZF-EOF'
+                {}
+FZF-EOF"
 }
 
 bindkey -s '^o' 'se\n'
