@@ -10,14 +10,14 @@ _viewGitLogLine="$_gitLogLineToHash |
 xargs -I % sh -c 'git show --color=always % |
 diff-so-fancy'"
 
-glog() {	# search for commit with preview and copy hash
+gcop() {	# search for commit with preview and copy hash
 	glNoGraph |
 		fzf -i -e --no-sort --reverse \
 			--tiebreak=index --no-multi \
 			--ansi --preview="$_viewGitLogLine" \
-			--header "enter: view, M-y: copy hash" \
+			--header "enter: view, C-c: copy hash" \
 			--bind "enter:execute:$_viewGitLogLine   |
             less -R" \
-			--bind "alt-y:execute:$_gitLogLineToHash |
+			--bind "ctrl-c:execute:$_gitLogLineToHash |
             xclip -r -selection clipboard"
 }

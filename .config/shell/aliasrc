@@ -45,7 +45,6 @@ alias \
 	gC="git checkout -B" \
 	gp="git pull" \
 	gps="git push" \
-	gl="git log" \
 	trem="transmission-remote" \
 	YT="youtube-viewer" \
 	sdn="sudo shutdown -h now" \
