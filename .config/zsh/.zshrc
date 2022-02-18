@@ -144,6 +144,14 @@ fshow() {
 FZF-EOF"
 }
 
+gch() {
+ git checkout $(git branch | fzf)
+}
+
+gD() {
+	git branch -D $(git branch | fzf)
+}
+
 bindkey -s '^o' 'se\n'
 
 bindkey -s '^a' 'bc -lq\n'
@@ -166,5 +174,6 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.config/zsh/alias.zsh ] && source ~/.config/zsh/alias.zsh
 export FZF_DEFAULT_COMMAND='fdfind --type f'
 export FZF_DEFAULT_OPTS="--layout=reverse --inline-info --height=80%"
