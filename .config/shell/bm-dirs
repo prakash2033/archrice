@@ -14,5 +14,5 @@ src $HOME/.local/src
 vv  ${XDG_VIDEOS_DIR:-$HOME/vids}
 tos ~/dev/tote-tocc-tos
 label ~/dev/tote-tocc-labelservice
-service ~/dev/tote-tocc-servicesui
+service ~/dev/tote-tocc-services-ui
 software ~/dev/tote-tocc-softwareservice

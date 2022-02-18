@@ -39,8 +39,8 @@ alias \
 	gcb="git checkout -B" \
 	gf="git fetch --all" \
 	gs="git status" \
-	gd="git diff" \
-	gds="git diff --staged" \
+	gd="git show --color=always | diff-so-fancy"
+	gds="git diff --staged | diff-so-fancy" \
 	gc="git commit" \
 	gC="git checkout -B" \
 	gp="git pull" \
