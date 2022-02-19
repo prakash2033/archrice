@@ -119,6 +119,7 @@
 .screenlayout/
 .icons/
 .fehbg
+.AzureToolsForIntelliJ/
 
 # User directories
 books/
