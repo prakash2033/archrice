@@ -19,6 +19,7 @@ nm-applet &		# Network Manager applet
 #blueman-applet & 	# Bluetooth applet
 blueberry-tray & 	# Bluetooth tray icon
 #betterlockscreen -w dim # Set desktop background with custom effect
+xfce4-clipman &		# clipboard plugin for the Xfce4 panel
 wal -R 			# restores the last colorscheme that was in use
 
 # This line autostarts an instance of Pulseaudio that does not exit on idle.
