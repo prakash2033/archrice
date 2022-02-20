@@ -12,6 +12,7 @@ ww="cd /home/prakash/pix/wall && ls -a" \
 sc="cd /home/prakash/.local/bin && ls -a" \
 src="cd /home/prakash/.local/src && ls -a" \
 vv="cd /home/prakash/vids && ls -a" \
+dev="cd ~/dev && ls -a" \
 tos="cd ~/dev/tote-tocc-tos && ls -a" \
 label="cd ~/dev/tote-tocc-labelservice && ls -a" \
 service="cd ~/dev/tote-tocc-services-ui && ls -a" \
