@@ -16,7 +16,7 @@ unclutter &		# Remove mouse when idle
 xfce4-power-manager &	# For power management
 udiskie &		# Autommount removable disks
 nm-applet &		# Network Manager applet
-#blueman-applet & 	# Bluetooth applet
+blueman-applet & 	# Bluetooth applet
 blueberry-tray & 	# Bluetooth tray icon
 #betterlockscreen -w dim # Set desktop background with custom effect
 xfce4-clipman &		# clipboard plugin for the Xfce4 panel
